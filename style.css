@@ -8,9 +8,10 @@
     background-color: darkgray;
     background-position: center;
     background-size: cover;
-    height: 200vh;
+    height: 220vh;
     position: relative;
     font-family: 'Times New Roman', Times, serif;
+    
 
 }
 
@@ -22,6 +23,7 @@
     padding: 0px 0px;
     align-items: center;
     justify-content: space-between;
+  
 }
 
 ul{
@@ -54,6 +56,8 @@ ul li a:hover{
 .Information h1{
     font-size: 70px;
     color: rgb(0, 0, 0);
+    
+    
 }
 
 .Information h3{
@@ -71,7 +75,7 @@ img{
     width: 500px;
     float: right;
     margin-top: 100px;
-    margin-right: 15%
+    margin-right: 15%;
 }
 
 .About{
@@ -104,4 +108,27 @@ ul li{
 
 .Work h1{
     font-size: xx-large;
+}
+
+img{
+    float: right;
+    height: 400px;
+    width: 500px; 
+    
+    
+}
+
+footer{
+   position: fixed; 
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: whitesmoke;
+   color: black;
+   text-align: center;
+}
+
+.horiseon{
+    margin-right: -30%;
+    
 }
